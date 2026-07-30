@@ -14,7 +14,7 @@ cask "snack" do
   # 훗날 Sparkle 을 붙이면 여기에 `auto_updates true` 를 넣어야 한다 —
   # 없으면 brew 가 Sparkle 이 갈아끼운 앱을 구버전으로 되돌린다.
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Snack.app"
 
