@@ -12,7 +12,15 @@ Homebrew tap for **Snack**, a session-scoped repo cockpit for macOS.
 brew install --cask saroby/snack/snack
 ```
 
-That one command adds this tap and installs the app. Afterwards it behaves like any other cask:
+That one command adds this tap and installs the app. Homebrew asks you to approve the tap
+the first time — it does not load casks from non-official taps until you do. To approve it
+up front instead:
+
+```bash
+brew trust --cask saroby/snack/snack
+```
+
+Afterwards it behaves like any other cask:
 
 ```bash
 brew upgrade --cask snack     # update
