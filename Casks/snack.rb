@@ -2,8 +2,8 @@ cask "snack" do
   # version 과 sha256 은 릴리스마다 소스 레포의 scripts/release.sh 가 gh API 로
   # 갈아끼운다(`make release`). 손으로 고치지 않는다 — 손으로 고치면 릴리스에
   # 올라간 DMG 의 해시와 어긋나 `brew install` 이 체크섬 불일치로 멈춘다.
-  version "0.0.3"
-  sha256 "e295f2eb2c98592a8cb8c2427bf3f36b283234a5f5e5e11067b8166daa5259d3"
+  version "0.0.4"
+  sha256 "3ca5eb91865555200ac48bb8d22c78df28568887b0ce7f5e4852eeeb77d59345"
 
   url "https://github.com/saroby/homebrew-snack/releases/download/v#{version}/Snack-#{version}.dmg",
       verified: "github.com/saroby/homebrew-snack/"
